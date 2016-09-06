@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="FoodItem" representedClassName=".FoodItem" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="portions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Portion" inverseName="foodItem" inverseEntity="Portion" syncable="YES"/>
+        <relationship name="rule" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Rule" inverseName="foodItem" inverseEntity="Rule" syncable="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="foodItems" inverseEntity="Tag" syncable="YES"/>
+    </entity>
+    <entity name="Portion" representedClassName=".Portion" syncable="YES">
+        <attribute name="date" attributeType="Date" syncable="YES"/>
+        <attribute name="mealType" attributeType="Integer 16" minValueString="0" maxValueString="3" defaultValueString="0" syncable="YES"/>
+        <relationship name="foodItem" maxCount="1" deletionRule="Nullify" destinationEntity="FoodItem" inverseName="portions" inverseEntity="FoodItem" syncable="YES"/>
+    </entity>
+    <entity name="Rule" representedClassName=".Rule" syncable="YES">
+        <attribute name="days" attributeType="Integer 16" minValueString="1" syncable="YES"/>
+        <attribute name="isActive" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="isStrict" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="periodCount" attributeType="Integer 16" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="periodEndDate" attributeType="Date" syncable="YES"/>
+        <attribute name="periodStartDate" attributeType="Date" syncable="YES"/>
+        <attribute name="times" attributeType="Integer 16" minValueString="1" syncable="YES"/>
+        <relationship name="foodItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FoodItem" inverseName="rule" inverseEntity="FoodItem" syncable="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName=".Tag" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="foodItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FoodItem" inverseName="tags" inverseEntity="FoodItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodItem" positionX="-405" positionY="-0" width="128" height="105"/>
+        <element name="Portion" positionX="-306" positionY="99" width="128" height="90"/>
+        <element name="Rule" positionX="-209" positionY="-0" width="128" height="165"/>
+        <element name="Tag" positionX="-405" positionY="153" width="128" height="90"/>
+    </elements>
+</model>

@@ -8,13 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		EEA089D81D7EE7E000624D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089D71D7EE7E000624D97 /* AppDelegate.swift */; };
-		EEA089DA1D7EE7E000624D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089D91D7EE7E000624D97 /* ViewController.swift */; };
-		EEA089DD1D7EE7E000624D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA089DB1D7EE7E000624D97 /* Main.storyboard */; };
-		EEA089E01D7EE7E000624D97 /* Cibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */; };
 		EEA089E21D7EE7E000624D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA089E11D7EE7E000624D97 /* Assets.xcassets */; };
 		EEA089E51D7EE7E000624D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */; };
 		EEA089F01D7EE7E000624D97 /* CiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089EF1D7EE7E000624D97 /* CiboTests.swift */; };
 		EEA089FB1D7EE7E000624D97 /* CiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089FA1D7EE7E000624D97 /* CiboUITests.swift */; };
+		EEA08A0A1D7EE92200624D97 /* Cibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A081D7EE92200624D97 /* Cibo.xcdatamodeld */; };
+		EEA08A0D1D7EE94400624D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA08A0B1D7EE94400624D97 /* Main.storyboard */; };
+		EEA08A151D7EE9A600624D97 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A101D7EE9A600624D97 /* AddItemViewController.swift */; };
+		EEA08A161D7EE9A600624D97 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A111D7EE9A600624D97 /* ItemDetailViewController.swift */; };
+		EEA08A171D7EE9A600624D97 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A121D7EE9A600624D97 /* ItemListViewController.swift */; };
+		EEA08A181D7EE9A600624D97 /* ItemPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A131D7EE9A600624D97 /* ItemPickerViewController.swift */; };
+		EEA08A191D7EE9A600624D97 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A141D7EE9A600624D97 /* TodayViewController.swift */; };
+		EEA08A231D7EE9F300624D97 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A1B1D7EE9F300624D97 /* FoodItem.swift */; };
+		EEA08A241D7EE9F300624D97 /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A1C1D7EE9F300624D97 /* FoodItem+CoreDataProperties.swift */; };
+		EEA08A251D7EE9F300624D97 /* Portion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A1D1D7EE9F300624D97 /* Portion.swift */; };
+		EEA08A261D7EE9F300624D97 /* Portion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A1E1D7EE9F300624D97 /* Portion+CoreDataProperties.swift */; };
+		EEA08A271D7EE9F300624D97 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A1F1D7EE9F300624D97 /* Rule.swift */; };
+		EEA08A281D7EE9F300624D97 /* Rule+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A201D7EE9F300624D97 /* Rule+CoreDataProperties.swift */; };
+		EEA08A291D7EE9F300624D97 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A211D7EE9F300624D97 /* Tag.swift */; };
+		EEA08A2A1D7EE9F300624D97 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A221D7EE9F300624D97 /* Tag+CoreDataProperties.swift */; };
+		EEA08A301D7EEA2400624D97 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A2B1D7EEA2400624D97 /* CalendarView.swift */; };
+		EEA08A311D7EEA2400624D97 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA08A2C1D7EEA2400624D97 /* CalendarView.xib */; };
+		EEA08A321D7EEA2400624D97 /* MealSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A2D1D7EEA2400624D97 /* MealSectionHeaderView.swift */; };
+		EEA08A331D7EEA2400624D97 /* MealSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEA08A2E1D7EEA2400624D97 /* MealSectionHeaderView.xib */; };
+		EEA08A341D7EEA2400624D97 /* SwipeableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A2F1D7EEA2400624D97 /* SwipeableCell.swift */; };
+		EEA08A391D7EEA5D00624D97 /* MealsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A361D7EEA5D00624D97 /* MealsListController.swift */; };
+		EEA08A3A1D7EEA5D00624D97 /* NSCalendar+dayUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A371D7EEA5D00624D97 /* NSCalendar+dayUnits.swift */; };
+		EEA08A3B1D7EEA5D00624D97 /* XNNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A381D7EEA5D00624D97 /* XNNavigationController.swift */; };
+		EEA08A611D7EEAA200624D97 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A411D7EEAA200624D97 /* JTCalendarManager.m */; };
+		EEA08A621D7EEAA200624D97 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A431D7EEAA200624D97 /* JTCalendarSettings.m */; };
+		EEA08A631D7EEAA200624D97 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A451D7EEAA200624D97 /* JTDateHelper.m */; };
+		EEA08A641D7EEAA200624D97 /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A481D7EEAA200624D97 /* JTCalendarDelegateManager.m */; };
+		EEA08A651D7EEAA200624D97 /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A4A1D7EEAA200624D97 /* JTCalendarScrollManager.m */; };
+		EEA08A661D7EEAA200624D97 /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A541D7EEAA200624D97 /* JTCalendarDayView.m */; };
+		EEA08A671D7EEAA200624D97 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A561D7EEAA200624D97 /* JTCalendarMenuView.m */; };
+		EEA08A681D7EEAA200624D97 /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A581D7EEAA200624D97 /* JTCalendarPageView.m */; };
+		EEA08A691D7EEAA200624D97 /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A5A1D7EEAA200624D97 /* JTCalendarWeekDayView.m */; };
+		EEA08A6A1D7EEAA200624D97 /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A5C1D7EEAA200624D97 /* JTCalendarWeekView.m */; };
+		EEA08A6B1D7EEAA200624D97 /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A5E1D7EEAA200624D97 /* JTHorizontalCalendarView.m */; };
+		EEA08A6C1D7EEAA200624D97 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA08A601D7EEAA200624D97 /* JTVerticalCalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +68,7 @@
 
 /* Begin PBXFileReference section */
 		EEA089D41D7EE7E000624D97 /* Cibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA089D71D7EE7E000624D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEA089D91D7EE7E000624D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEA089DC1D7EE7E000624D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cibo.xcdatamodel; sourceTree = "<group>"; };
+		EEA089D71D7EE7E000624D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AppDelegate.swift; path = Classes/Other/AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EEA089E11D7EE7E000624D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA089E41D7EE7E000624D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA089E61D7EE7E000624D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +78,62 @@
 		EEA089F61D7EE7E000624D97 /* CiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA089FA1D7EE7E000624D97 /* CiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiboUITests.swift; sourceTree = "<group>"; };
 		EEA089FC1D7EE7E000624D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA08A091D7EE92200624D97 /* FoodDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodDiary.xcdatamodel; sourceTree = "<group>"; };
+		EEA08A0C1D7EE94400624D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cibo/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA08A101D7EE9A600624D97 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AddItemViewController.swift; path = Classes/Controllers/AddItemViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A111D7EE9A600624D97 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ItemDetailViewController.swift; path = Classes/Controllers/ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A121D7EE9A600624D97 /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ItemListViewController.swift; path = Classes/Controllers/ItemListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A131D7EE9A600624D97 /* ItemPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ItemPickerViewController.swift; path = Classes/Controllers/ItemPickerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A141D7EE9A600624D97 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = TodayViewController.swift; path = Classes/Controllers/TodayViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A1B1D7EE9F300624D97 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = FoodItem.swift; path = Classes/Model/FoodItem.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A1C1D7EE9F300624D97 /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "FoodItem+CoreDataProperties.swift"; path = "Classes/Model/FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A1D1D7EE9F300624D97 /* Portion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Portion.swift; path = Classes/Model/Portion.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A1E1D7EE9F300624D97 /* Portion+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Portion+CoreDataProperties.swift"; path = "Classes/Model/Portion+CoreDataProperties.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A1F1D7EE9F300624D97 /* Rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Rule.swift; path = Classes/Model/Rule.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A201D7EE9F300624D97 /* Rule+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Rule+CoreDataProperties.swift"; path = "Classes/Model/Rule+CoreDataProperties.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A211D7EE9F300624D97 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Tag.swift; path = Classes/Model/Tag.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A221D7EE9F300624D97 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Tag+CoreDataProperties.swift"; path = "Classes/Model/Tag+CoreDataProperties.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A2B1D7EEA2400624D97 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = CalendarView.swift; path = Classes/Views/CalendarView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A2C1D7EEA2400624D97 /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalendarView.xib; path = Classes/Views/CalendarView.xib; sourceTree = "<group>"; };
+		EEA08A2D1D7EEA2400624D97 /* MealSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = MealSectionHeaderView.swift; path = Classes/Views/MealSectionHeaderView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A2E1D7EEA2400624D97 /* MealSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MealSectionHeaderView.xib; path = Classes/Views/MealSectionHeaderView.xib; sourceTree = "<group>"; };
+		EEA08A2F1D7EEA2400624D97 /* SwipeableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeableCell.swift; path = Classes/Views/SwipeableCell.swift; sourceTree = "<group>"; };
+		EEA08A361D7EEA5D00624D97 /* MealsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = MealsListController.swift; path = Classes/Other/MealsListController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A371D7EEA5D00624D97 /* NSCalendar+dayUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "NSCalendar+dayUnits.swift"; path = "Classes/Other/NSCalendar+dayUnits.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A381D7EEA5D00624D97 /* XNNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = XNNavigationController.swift; path = Classes/Other/XNNavigationController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EEA08A3E1D7EEAA200624D97 /* JTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
+		EEA08A3F1D7EEAA200624D97 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegate.h; sourceTree = "<group>"; };
+		EEA08A401D7EEAA200624D97 /* JTCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarManager.h; sourceTree = "<group>"; };
+		EEA08A411D7EEAA200624D97 /* JTCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarManager.m; sourceTree = "<group>"; };
+		EEA08A421D7EEAA200624D97 /* JTCalendarSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarSettings.h; sourceTree = "<group>"; };
+		EEA08A431D7EEAA200624D97 /* JTCalendarSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarSettings.m; sourceTree = "<group>"; };
+		EEA08A441D7EEAA200624D97 /* JTDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDateHelper.h; sourceTree = "<group>"; };
+		EEA08A451D7EEAA200624D97 /* JTDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDateHelper.m; sourceTree = "<group>"; };
+		EEA08A471D7EEAA200624D97 /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		EEA08A481D7EEAA200624D97 /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		EEA08A491D7EEAA200624D97 /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		EEA08A4A1D7EEAA200624D97 /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		EEA08A4C1D7EEAA200624D97 /* JTCalendarDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDay.h; sourceTree = "<group>"; };
+		EEA08A4D1D7EEAA200624D97 /* JTCalendarPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPage.h; sourceTree = "<group>"; };
+		EEA08A4E1D7EEAA200624D97 /* JTCalendarWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeek.h; sourceTree = "<group>"; };
+		EEA08A4F1D7EEAA200624D97 /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		EEA08A501D7EEAA200624D97 /* JTContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTContent.h; sourceTree = "<group>"; };
+		EEA08A511D7EEAA200624D97 /* JTMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMenu.h; sourceTree = "<group>"; };
+		EEA08A531D7EEAA200624D97 /* JTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDayView.h; sourceTree = "<group>"; };
+		EEA08A541D7EEAA200624D97 /* JTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarDayView.m; sourceTree = "<group>"; };
+		EEA08A551D7EEAA200624D97 /* JTCalendarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarMenuView.h; sourceTree = "<group>"; };
+		EEA08A561D7EEAA200624D97 /* JTCalendarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarMenuView.m; sourceTree = "<group>"; };
+		EEA08A571D7EEAA200624D97 /* JTCalendarPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarPageView.h; sourceTree = "<group>"; };
+		EEA08A581D7EEAA200624D97 /* JTCalendarPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarPageView.m; sourceTree = "<group>"; };
+		EEA08A591D7EEAA200624D97 /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		EEA08A5A1D7EEAA200624D97 /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		EEA08A5B1D7EEAA200624D97 /* JTCalendarWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarWeekView.h; sourceTree = "<group>"; };
+		EEA08A5C1D7EEAA200624D97 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCalendarWeekView.m; sourceTree = "<group>"; };
+		EEA08A5D1D7EEAA200624D97 /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		EEA08A5E1D7EEAA200624D97 /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		EEA08A5F1D7EEAA200624D97 /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		EEA08A601D7EEAA200624D97 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		EEA08A6D1D7EEB3100624D97 /* Cibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cibo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +184,14 @@
 		EEA089D61D7EE7E000624D97 /* Cibo */ = {
 			isa = PBXGroup;
 			children = (
+				EEA08A0B1D7EE94400624D97 /* Main.storyboard */,
 				EEA089D71D7EE7E000624D97 /* AppDelegate.swift */,
-				EEA089D91D7EE7E000624D97 /* ViewController.swift */,
-				EEA089DB1D7EE7E000624D97 /* Main.storyboard */,
-				EEA089E11D7EE7E000624D97 /* Assets.xcassets */,
-				EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */,
-				EEA089E61D7EE7E000624D97 /* Info.plist */,
-				EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */,
+				EEA08A0E1D7EE98300624D97 /* Model */,
+				EEA08A1A1D7EE9AE00624D97 /* Controller */,
+				EEA08A351D7EEA2E00624D97 /* View */,
+				EEA08A3C1D7EEA6100624D97 /* Other */,
+				EEA08A0F1D7EE99300624D97 /* Resources */,
+				EEA08A3D1D7EEAA200624D97 /* JTCalendar */,
 			);
 			path = Cibo;
 			sourceTree = "<group>";
@@ -126,6 +212,131 @@
 				EEA089FC1D7EE7E000624D97 /* Info.plist */,
 			);
 			path = CiboUITests;
+			sourceTree = "<group>";
+		};
+		EEA08A0E1D7EE98300624D97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A081D7EE92200624D97 /* Cibo.xcdatamodeld */,
+				EEA08A1B1D7EE9F300624D97 /* FoodItem.swift */,
+				EEA08A1C1D7EE9F300624D97 /* FoodItem+CoreDataProperties.swift */,
+				EEA08A1D1D7EE9F300624D97 /* Portion.swift */,
+				EEA08A1E1D7EE9F300624D97 /* Portion+CoreDataProperties.swift */,
+				EEA08A1F1D7EE9F300624D97 /* Rule.swift */,
+				EEA08A201D7EE9F300624D97 /* Rule+CoreDataProperties.swift */,
+				EEA08A211D7EE9F300624D97 /* Tag.swift */,
+				EEA08A221D7EE9F300624D97 /* Tag+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEA08A0F1D7EE99300624D97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEA089E11D7EE7E000624D97 /* Assets.xcassets */,
+				EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */,
+				EEA089E61D7EE7E000624D97 /* Info.plist */,
+				EEA08A6D1D7EEB3100624D97 /* Cibo-Bridging-Header.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEA08A1A1D7EE9AE00624D97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A141D7EE9A600624D97 /* TodayViewController.swift */,
+				EEA08A121D7EE9A600624D97 /* ItemListViewController.swift */,
+				EEA08A101D7EE9A600624D97 /* AddItemViewController.swift */,
+				EEA08A111D7EE9A600624D97 /* ItemDetailViewController.swift */,
+				EEA08A131D7EE9A600624D97 /* ItemPickerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EEA08A351D7EEA2E00624D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A2B1D7EEA2400624D97 /* CalendarView.swift */,
+				EEA08A2C1D7EEA2400624D97 /* CalendarView.xib */,
+				EEA08A2D1D7EEA2400624D97 /* MealSectionHeaderView.swift */,
+				EEA08A2E1D7EEA2400624D97 /* MealSectionHeaderView.xib */,
+				EEA08A2F1D7EEA2400624D97 /* SwipeableCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEA08A3C1D7EEA6100624D97 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A361D7EEA5D00624D97 /* MealsListController.swift */,
+				EEA08A371D7EEA5D00624D97 /* NSCalendar+dayUnits.swift */,
+				EEA08A381D7EEA5D00624D97 /* XNNavigationController.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EEA08A3D1D7EEAA200624D97 /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A3E1D7EEAA200624D97 /* JTCalendar.h */,
+				EEA08A3F1D7EEAA200624D97 /* JTCalendarDelegate.h */,
+				EEA08A401D7EEAA200624D97 /* JTCalendarManager.h */,
+				EEA08A411D7EEAA200624D97 /* JTCalendarManager.m */,
+				EEA08A421D7EEAA200624D97 /* JTCalendarSettings.h */,
+				EEA08A431D7EEAA200624D97 /* JTCalendarSettings.m */,
+				EEA08A441D7EEAA200624D97 /* JTDateHelper.h */,
+				EEA08A451D7EEAA200624D97 /* JTDateHelper.m */,
+				EEA08A461D7EEAA200624D97 /* Managers */,
+				EEA08A4B1D7EEAA200624D97 /* Protocols */,
+				EEA08A521D7EEAA200624D97 /* Views */,
+			);
+			name = JTCalendar;
+			path = Classes/External/JTCalendar;
+			sourceTree = "<group>";
+		};
+		EEA08A461D7EEAA200624D97 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A471D7EEAA200624D97 /* JTCalendarDelegateManager.h */,
+				EEA08A481D7EEAA200624D97 /* JTCalendarDelegateManager.m */,
+				EEA08A491D7EEAA200624D97 /* JTCalendarScrollManager.h */,
+				EEA08A4A1D7EEAA200624D97 /* JTCalendarScrollManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EEA08A4B1D7EEAA200624D97 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A4C1D7EEAA200624D97 /* JTCalendarDay.h */,
+				EEA08A4D1D7EEAA200624D97 /* JTCalendarPage.h */,
+				EEA08A4E1D7EEAA200624D97 /* JTCalendarWeek.h */,
+				EEA08A4F1D7EEAA200624D97 /* JTCalendarWeekDay.h */,
+				EEA08A501D7EEAA200624D97 /* JTContent.h */,
+				EEA08A511D7EEAA200624D97 /* JTMenu.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EEA08A521D7EEAA200624D97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEA08A531D7EEAA200624D97 /* JTCalendarDayView.h */,
+				EEA08A541D7EEAA200624D97 /* JTCalendarDayView.m */,
+				EEA08A551D7EEAA200624D97 /* JTCalendarMenuView.h */,
+				EEA08A561D7EEAA200624D97 /* JTCalendarMenuView.m */,
+				EEA08A571D7EEAA200624D97 /* JTCalendarPageView.h */,
+				EEA08A581D7EEAA200624D97 /* JTCalendarPageView.m */,
+				EEA08A591D7EEAA200624D97 /* JTCalendarWeekDayView.h */,
+				EEA08A5A1D7EEAA200624D97 /* JTCalendarWeekDayView.m */,
+				EEA08A5B1D7EEAA200624D97 /* JTCalendarWeekView.h */,
+				EEA08A5C1D7EEAA200624D97 /* JTCalendarWeekView.m */,
+				EEA08A5D1D7EEAA200624D97 /* JTHorizontalCalendarView.h */,
+				EEA08A5E1D7EEAA200624D97 /* JTHorizontalCalendarView.m */,
+				EEA08A5F1D7EEAA200624D97 /* JTVerticalCalendarView.h */,
+				EEA08A601D7EEAA200624D97 /* JTVerticalCalendarView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +443,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA08A0D1D7EE94400624D97 /* Main.storyboard in Resources */,
 				EEA089E51D7EE7E000624D97 /* LaunchScreen.storyboard in Resources */,
+				EEA08A311D7EEA2400624D97 /* CalendarView.xib in Resources */,
+				EEA08A331D7EEA2400624D97 /* MealSectionHeaderView.xib in Resources */,
 				EEA089E21D7EE7E000624D97 /* Assets.xcassets in Resources */,
-				EEA089DD1D7EE7E000624D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +472,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA089DA1D7EE7E000624D97 /* ViewController.swift in Sources */,
+				EEA08A241D7EE9F300624D97 /* FoodItem+CoreDataProperties.swift in Sources */,
+				EEA08A281D7EE9F300624D97 /* Rule+CoreDataProperties.swift in Sources */,
+				EEA08A301D7EEA2400624D97 /* CalendarView.swift in Sources */,
+				EEA08A661D7EEAA200624D97 /* JTCalendarDayView.m in Sources */,
+				EEA08A3A1D7EEA5D00624D97 /* NSCalendar+dayUnits.swift in Sources */,
+				EEA08A231D7EE9F300624D97 /* FoodItem.swift in Sources */,
 				EEA089D81D7EE7E000624D97 /* AppDelegate.swift in Sources */,
-				EEA089E01D7EE7E000624D97 /* Cibo.xcdatamodeld in Sources */,
+				EEA08A671D7EEAA200624D97 /* JTCalendarMenuView.m in Sources */,
+				EEA08A321D7EEA2400624D97 /* MealSectionHeaderView.swift in Sources */,
+				EEA08A6C1D7EEAA200624D97 /* JTVerticalCalendarView.m in Sources */,
+				EEA08A641D7EEAA200624D97 /* JTCalendarDelegateManager.m in Sources */,
+				EEA08A391D7EEA5D00624D97 /* MealsListController.swift in Sources */,
+				EEA08A191D7EE9A600624D97 /* TodayViewController.swift in Sources */,
+				EEA08A171D7EE9A600624D97 /* ItemListViewController.swift in Sources */,
+				EEA08A0A1D7EE92200624D97 /* Cibo.xcdatamodeld in Sources */,
+				EEA08A261D7EE9F300624D97 /* Portion+CoreDataProperties.swift in Sources */,
+				EEA08A341D7EEA2400624D97 /* SwipeableCell.swift in Sources */,
+				EEA08A621D7EEAA200624D97 /* JTCalendarSettings.m in Sources */,
+				EEA08A6A1D7EEAA200624D97 /* JTCalendarWeekView.m in Sources */,
+				EEA08A6B1D7EEAA200624D97 /* JTHorizontalCalendarView.m in Sources */,
+				EEA08A3B1D7EEA5D00624D97 /* XNNavigationController.swift in Sources */,
+				EEA08A181D7EE9A600624D97 /* ItemPickerViewController.swift in Sources */,
+				EEA08A161D7EE9A600624D97 /* ItemDetailViewController.swift in Sources */,
+				EEA08A291D7EE9F300624D97 /* Tag.swift in Sources */,
+				EEA08A691D7EEAA200624D97 /* JTCalendarWeekDayView.m in Sources */,
+				EEA08A611D7EEAA200624D97 /* JTCalendarManager.m in Sources */,
+				EEA08A2A1D7EE9F300624D97 /* Tag+CoreDataProperties.swift in Sources */,
+				EEA08A681D7EEAA200624D97 /* JTCalendarPageView.m in Sources */,
+				EEA08A271D7EE9F300624D97 /* Rule.swift in Sources */,
+				EEA08A651D7EEAA200624D97 /* JTCalendarScrollManager.m in Sources */,
+				EEA08A631D7EEAA200624D97 /* JTDateHelper.m in Sources */,
+				EEA08A151D7EE9A600624D97 /* AddItemViewController.swift in Sources */,
+				EEA08A251D7EE9F300624D97 /* Portion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +540,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEA089DB1D7EE7E000624D97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEA089DC1D7EE7E000624D97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EEA089E41D7EE7E000624D97 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA08A0B1D7EE94400624D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA08A0C1D7EE94400624D97 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.john.Cibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cibo/Cibo-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -420,6 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.john.Cibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cibo/Cibo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -508,12 +754,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */ = {
+		EEA08A081D7EE92200624D97 /* Cibo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */,
+				EEA08A091D7EE92200624D97 /* FoodDiary.xcdatamodel */,
 			);
-			currentVersion = EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */;
+			currentVersion = EEA08A091D7EE92200624D97 /* FoodDiary.xcdatamodel */;
 			path = Cibo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
