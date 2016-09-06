@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarView" customModule="FoodDiary" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarView" customModule="Cibo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -52,13 +52,13 @@
                     <exclude reference="Ssn-pz-mav"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="SYK-l6-wbp"/>
-                    <exclude reference="Zrf-pO-9aa"/>
-                    <exclude reference="cOg-T7-9Wh"/>
                     <exclude reference="5O9-t2-JRE"/>
                     <exclude reference="Hlq-cR-zdd"/>
                     <exclude reference="XZU-nR-55b"/>
                     <exclude reference="eZT-qS-Yjs"/>
+                    <exclude reference="SYK-l6-wbp"/>
+                    <exclude reference="Zrf-pO-9aa"/>
+                    <exclude reference="cOg-T7-9Wh"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -67,13 +67,13 @@
                     <include reference="Ssn-pz-mav"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="SYK-l6-wbp"/>
-                    <include reference="Zrf-pO-9aa"/>
-                    <include reference="cOg-T7-9Wh"/>
                     <include reference="5O9-t2-JRE"/>
                     <include reference="Hlq-cR-zdd"/>
                     <include reference="XZU-nR-55b"/>
                     <include reference="eZT-qS-Yjs"/>
+                    <include reference="SYK-l6-wbp"/>
+                    <include reference="Zrf-pO-9aa"/>
+                    <include reference="cOg-T7-9Wh"/>
                 </mask>
             </variation>
             <connections>
