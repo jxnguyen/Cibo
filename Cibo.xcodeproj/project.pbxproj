@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA089D81D7EE7E000624D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089D71D7EE7E000624D97 /* AppDelegate.swift */; };
+		EEA089DA1D7EE7E000624D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089D91D7EE7E000624D97 /* ViewController.swift */; };
+		EEA089DD1D7EE7E000624D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA089DB1D7EE7E000624D97 /* Main.storyboard */; };
+		EEA089E01D7EE7E000624D97 /* Cibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */; };
+		EEA089E21D7EE7E000624D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA089E11D7EE7E000624D97 /* Assets.xcassets */; };
+		EEA089E51D7EE7E000624D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */; };
+		EEA089F01D7EE7E000624D97 /* CiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089EF1D7EE7E000624D97 /* CiboTests.swift */; };
+		EEA089FB1D7EE7E000624D97 /* CiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA089FA1D7EE7E000624D97 /* CiboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEA089EC1D7EE7E000624D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA089CC1D7EE7E000624D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA089D31D7EE7E000624D97;
+			remoteInfo = Cibo;
+		};
+		EEA089F71D7EE7E000624D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA089CC1D7EE7E000624D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA089D31D7EE7E000624D97;
+			remoteInfo = Cibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEA089D41D7EE7E000624D97 /* Cibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA089D71D7EE7E000624D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEA089D91D7EE7E000624D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEA089DC1D7EE7E000624D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cibo.xcdatamodel; sourceTree = "<group>"; };
+		EEA089E11D7EE7E000624D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA089E41D7EE7E000624D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA089E61D7EE7E000624D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA089EB1D7EE7E000624D97 /* CiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA089EF1D7EE7E000624D97 /* CiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiboTests.swift; sourceTree = "<group>"; };
+		EEA089F11D7EE7E000624D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA089F61D7EE7E000624D97 /* CiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA089FA1D7EE7E000624D97 /* CiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiboUITests.swift; sourceTree = "<group>"; };
+		EEA089FC1D7EE7E000624D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA089D11D7EE7E000624D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089E81D7EE7E000624D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089F31D7EE7E000624D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA089CB1D7EE7E000624D97 = {
+			isa = PBXGroup;
+			children = (
+				EEA089D61D7EE7E000624D97 /* Cibo */,
+				EEA089EE1D7EE7E000624D97 /* CiboTests */,
+				EEA089F91D7EE7E000624D97 /* CiboUITests */,
+				EEA089D51D7EE7E000624D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA089D51D7EE7E000624D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA089D41D7EE7E000624D97 /* Cibo.app */,
+				EEA089EB1D7EE7E000624D97 /* CiboTests.xctest */,
+				EEA089F61D7EE7E000624D97 /* CiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA089D61D7EE7E000624D97 /* Cibo */ = {
+			isa = PBXGroup;
+			children = (
+				EEA089D71D7EE7E000624D97 /* AppDelegate.swift */,
+				EEA089D91D7EE7E000624D97 /* ViewController.swift */,
+				EEA089DB1D7EE7E000624D97 /* Main.storyboard */,
+				EEA089E11D7EE7E000624D97 /* Assets.xcassets */,
+				EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */,
+				EEA089E61D7EE7E000624D97 /* Info.plist */,
+				EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */,
+			);
+			path = Cibo;
+			sourceTree = "<group>";
+		};
+		EEA089EE1D7EE7E000624D97 /* CiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA089EF1D7EE7E000624D97 /* CiboTests.swift */,
+				EEA089F11D7EE7E000624D97 /* Info.plist */,
+			);
+			path = CiboTests;
+			sourceTree = "<group>";
+		};
+		EEA089F91D7EE7E000624D97 /* CiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA089FA1D7EE7E000624D97 /* CiboUITests.swift */,
+				EEA089FC1D7EE7E000624D97 /* Info.plist */,
+			);
+			path = CiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA089D31D7EE7E000624D97 /* Cibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA089FF1D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "Cibo" */;
+			buildPhases = (
+				EEA089D01D7EE7E000624D97 /* Sources */,
+				EEA089D11D7EE7E000624D97 /* Frameworks */,
+				EEA089D21D7EE7E000624D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cibo;
+			productName = Cibo;
+			productReference = EEA089D41D7EE7E000624D97 /* Cibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEA089EA1D7EE7E000624D97 /* CiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA08A021D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "CiboTests" */;
+			buildPhases = (
+				EEA089E71D7EE7E000624D97 /* Sources */,
+				EEA089E81D7EE7E000624D97 /* Frameworks */,
+				EEA089E91D7EE7E000624D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA089ED1D7EE7E000624D97 /* PBXTargetDependency */,
+			);
+			name = CiboTests;
+			productName = CiboTests;
+			productReference = EEA089EB1D7EE7E000624D97 /* CiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEA089F51D7EE7E000624D97 /* CiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA08A051D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "CiboUITests" */;
+			buildPhases = (
+				EEA089F21D7EE7E000624D97 /* Sources */,
+				EEA089F31D7EE7E000624D97 /* Frameworks */,
+				EEA089F41D7EE7E000624D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA089F81D7EE7E000624D97 /* PBXTargetDependency */,
+			);
+			name = CiboUITests;
+			productName = CiboUITests;
+			productReference = EEA089F61D7EE7E000624D97 /* CiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA089CC1D7EE7E000624D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Nguyen";
+				TargetAttributes = {
+					EEA089D31D7EE7E000624D97 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EEA089EA1D7EE7E000624D97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EEA089D31D7EE7E000624D97;
+					};
+					EEA089F51D7EE7E000624D97 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EEA089D31D7EE7E000624D97;
+					};
+				};
+			};
+			buildConfigurationList = EEA089CF1D7EE7E000624D97 /* Build configuration list for PBXProject "Cibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA089CB1D7EE7E000624D97;
+			productRefGroup = EEA089D51D7EE7E000624D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA089D31D7EE7E000624D97 /* Cibo */,
+				EEA089EA1D7EE7E000624D97 /* CiboTests */,
+				EEA089F51D7EE7E000624D97 /* CiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA089D21D7EE7E000624D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA089E51D7EE7E000624D97 /* LaunchScreen.storyboard in Resources */,
+				EEA089E21D7EE7E000624D97 /* Assets.xcassets in Resources */,
+				EEA089DD1D7EE7E000624D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089E91D7EE7E000624D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089F41D7EE7E000624D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA089D01D7EE7E000624D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA089DA1D7EE7E000624D97 /* ViewController.swift in Sources */,
+				EEA089D81D7EE7E000624D97 /* AppDelegate.swift in Sources */,
+				EEA089E01D7EE7E000624D97 /* Cibo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089E71D7EE7E000624D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA089F01D7EE7E000624D97 /* CiboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA089F21D7EE7E000624D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA089FB1D7EE7E000624D97 /* CiboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEA089ED1D7EE7E000624D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA089D31D7EE7E000624D97 /* Cibo */;
+			targetProxy = EEA089EC1D7EE7E000624D97 /* PBXContainerItemProxy */;
+		};
+		EEA089F81D7EE7E000624D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA089D31D7EE7E000624D97 /* Cibo */;
+			targetProxy = EEA089F71D7EE7E000624D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEA089DB1D7EE7E000624D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA089DC1D7EE7E000624D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA089E31D7EE7E000624D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA089E41D7EE7E000624D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA089FD1D7EE7E000624D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA089FE1D7EE7E000624D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA08A001D7EE7E000624D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.Cibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEA08A011D7EE7E000624D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.Cibo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEA08A031D7EE7E000624D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.CiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cibo.app/Cibo";
+			};
+			name = Debug;
+		};
+		EEA08A041D7EE7E000624D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.CiboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cibo.app/Cibo";
+			};
+			name = Release;
+		};
+		EEA08A061D7EE7E000624D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.CiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cibo;
+			};
+			name = Debug;
+		};
+		EEA08A071D7EE7E000624D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CiboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.john.CiboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA089CF1D7EE7E000624D97 /* Build configuration list for PBXProject "Cibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA089FD1D7EE7E000624D97 /* Debug */,
+				EEA089FE1D7EE7E000624D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA089FF1D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "Cibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA08A001D7EE7E000624D97 /* Debug */,
+				EEA08A011D7EE7E000624D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEA08A021D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "CiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA08A031D7EE7E000624D97 /* Debug */,
+				EEA08A041D7EE7E000624D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEA08A051D7EE7E000624D97 /* Build configuration list for PBXNativeTarget "CiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA08A061D7EE7E000624D97 /* Debug */,
+				EEA08A071D7EE7E000624D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEA089DE1D7EE7E000624D97 /* Cibo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */,
+			);
+			currentVersion = EEA089DF1D7EE7E000624D97 /* Cibo.xcdatamodel */;
+			path = Cibo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEA089CC1D7EE7E000624D97 /* Project object */;
+}
